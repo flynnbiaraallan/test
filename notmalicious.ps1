@@ -23,6 +23,6 @@ public class MouseOps {
 }
 "@
 
-[MouseOps]::MoveMouse(400, 650)
+[MouseOps]::MoveMouse(-400, 650)
 Start-Sleep -Seconds 2
 [MouseOps]::LeftClick()
